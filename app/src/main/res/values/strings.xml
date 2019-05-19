@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">UT Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title"><b>UNITED TRACTORS</b></string>
+    <string name="nav_header_subtitle">member of <b>ASTRA</b></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="form_ppm">Form PPM</string>
+    <string name="mcr_hd465_7R">MCR HD465&#8211;7R</string>
+    <string name="mcr_hd785_7">MCR HD785&#8211;7</string>
+    <string name="mcr_pc1250_8">MCR PC1250&#8211;8</string>
+
+    <string name="form_p2u">Form P2U</string>
+
+    <string name="guide">Guide</string>
+    <string name="gde_hd465_7R">Guide MCR HD465&#8211;7R</string>
+    <string name="gde_hd785_7">Guide MCR HD785&#8211;7</string>
+    <string name="gde_pc1250_8">Guide MCR PC1250&#8211;8</string>
+
+    <string name="pu2_dozer">P2U Dozer</string>
+</resources>

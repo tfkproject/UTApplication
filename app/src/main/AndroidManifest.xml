@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.tfkproject.utapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".McrHd465_7R"></activity>
+        <activity android:name=".McrHd785_7"></activity>
+        <activity android:name=".McrPc1250_8"></activity>
+
+        <activity android:name=".GuideHd465_7R"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".GuideHd785_7"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".GuideDetailActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
