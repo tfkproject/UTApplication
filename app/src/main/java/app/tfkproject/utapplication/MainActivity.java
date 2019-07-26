@@ -13,6 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import app.tfkproject.utapplication.fragment.AboutFragment;
 import app.tfkproject.utapplication.fragment.FormGuide;
 import app.tfkproject.utapplication.fragment.FormPPM;
 
@@ -96,8 +97,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.guide) {
             getSupportActionBar().setTitle(getResources().getString(R.string.guide));
             setFragment(FormGuide.class);
-        //} else if (id == R.id.nav_manage) {
-
+        } else if (id == R.id.about) {
+            getSupportActionBar().setTitle(getResources().getString(R.string.about));
+            setFragment(AboutFragment.class);
 //        } else if (id == R.id.nav_share) {
 //
 //        } else if (id == R.id.nav_send) {

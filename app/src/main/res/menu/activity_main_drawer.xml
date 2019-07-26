@@ -16,10 +16,10 @@
             android:id="@+id/guide"
             android:icon="@drawable/ic_assignment_black_24dp"
             android:title="@string/guide" />
-        <!--<item-->
-        <!--android:id="@+id/nav_manage"-->
-        <!--android:icon="@drawable/ic_menu_manage"-->
-        <!--android:title="Guide" />-->
+        <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/about" />
     </group>
 
     <!--<group android:checkableBehavior="single">-->
